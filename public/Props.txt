@@ -1,0 +1,9 @@
+function Card(props) {
+  return (
+    <div style={{backgroundColor: props.colour}}/>
+  );
+}
+
+// Usage
+<Card colour="red" />
+<Card colour="green" />

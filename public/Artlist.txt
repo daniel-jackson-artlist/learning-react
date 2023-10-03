@@ -1,0 +1,15 @@
+function Footage() {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  return (
+    <Card
+      isExpanded={index === 0}
+      onMouseEnter={() => setHoveredCard(0)}
+    />
+    <Card
+       isExpanded={index === 1}
+       onMouseEnter={() => setHoveredCard(1)}
+    />
+    // etc ...
+  );
+}

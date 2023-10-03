@@ -1,0 +1,16 @@
+function Card(props) {
+  return (
+    <div style={{backgroundColor: props.colour}}>
+      {props.children}
+    </div>
+  );
+}
+
+//Usage
+<Card colour="green">
+  Hello World
+</Card>
+
+<Card colour="red">
+  <CuteCat />
+</Card>

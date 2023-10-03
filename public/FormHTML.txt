@@ -1,0 +1,14 @@
+<h1>Submission Form</h1>
+<form onsubmit="handleSubmit()">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email">
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message">
+    </textarea><br>
+    <input type="submit" value="Submit">
+</form>
+<footer>
+  <h2>Buy my book on DDD</h2>
+</footer>

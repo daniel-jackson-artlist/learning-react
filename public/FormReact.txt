@@ -1,0 +1,3 @@
+<Title>Submission Form</Title>
+<Form onSubmit={handleSubmit}/>
+<Footer/>

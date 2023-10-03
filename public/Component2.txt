@@ -1,0 +1,10 @@
+function CuteCats() {
+  return (
+    <>
+      <img src="cat.png" />
+      <img src="cat.png" />
+      <img src="cat.png" />
+      <img src="cat.png" />
+    </>
+  );
+}

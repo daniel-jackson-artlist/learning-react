@@ -1,0 +1,5 @@
+function CuteCat() {
+  return (
+    <img src="cat.png" />
+  );
+}
